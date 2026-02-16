@@ -1,0 +1,60 @@
+{
+  "generated_at": "2025-10-24T16:56:25.321551",
+  "statistics": {
+    "total_logs": 232,
+    "log_levels": {
+      "INFO": 134,
+      "WARNING": 52,
+      "DEBUG": 23,
+      "ERROR": 21,
+      "CRITICAL": 2
+    },
+    "services": {
+      "DatabaseService": 53,
+      "PaymentService": 46,
+      "UserService": 46,
+      "AuthService": 44,
+      "NotificationService": 43
+    },
+    "avg_response_time": 597.4224137931035,
+    "max_response_time": "4858",
+    "min_response_time": "54",
+    "error_count": 23,
+    "timestamp": "2025-10-24T16:56:25.065168"
+  },
+  "anomalies": [
+    {
+      "type": "High Response Time",
+      "count": 18,
+      "threshold": 2619.32,
+      "avg_value": 3843.72
+    }
+  ],
+  "peak_hours": {
+    "13": 6494,
+    "14": 694,
+    "16": 232
+  },
+  "frequent_errors": [
+    {
+      "message": "Connection timeout",
+      "count": 139
+    },
+    {
+      "message": "Database connection failed",
+      "count": 128
+    },
+    {
+      "message": "Null pointer exception",
+      "count": 119
+    },
+    {
+      "message": "Invalid credentials",
+      "count": 119
+    },
+    {
+      "message": "Memory limit exceeded",
+      "count": 117
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mongodb": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "log_analytics",
+    "collection": "logs"
+  }, 
+  "log_settings": {
+    "log_directory": "C:\\Users\\Dell\\Documents\\RealTimeLogAnalysis\\logs",
+    "log_file": "application.log",
+    "generation_interval": 2,
+    "batch_size": 100
+  },
+  "analytics": {
+    "error_threshold": 10,
+    "anomaly_detection": true,
+    "report_interval": 300
+  }
+}

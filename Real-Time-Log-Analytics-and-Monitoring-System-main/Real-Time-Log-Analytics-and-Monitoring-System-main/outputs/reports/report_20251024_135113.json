@@ -1,0 +1,58 @@
+{
+  "generated_at": "2025-10-24T13:51:13.291908",
+  "statistics": {
+    "total_logs": 537,
+    "log_levels": {
+      "INFO": 325,
+      "WARNING": 101,
+      "ERROR": 58,
+      "DEBUG": 37,
+      "CRITICAL": 16
+    },
+    "services": {
+      "PaymentService": 125,
+      "NotificationService": 121,
+      "DatabaseService": 104,
+      "AuthService": 96,
+      "UserService": 91
+    },
+    "avg_response_time": 733.6517690875232,
+    "max_response_time": "4940",
+    "min_response_time": "51",
+    "error_count": 74,
+    "timestamp": "2025-10-24T13:51:13.237436"
+  },
+  "anomalies": [
+    {
+      "type": "High Response Time",
+      "count": 45,
+      "threshold": 3152.09,
+      "avg_value": 4265.84
+    }
+  ],
+  "peak_hours": {
+    "13": 537
+  },
+  "frequent_errors": [
+    {
+      "message": "Null pointer exception",
+      "count": 15
+    },
+    {
+      "message": "Connection timeout",
+      "count": 14
+    },
+    {
+      "message": "Invalid credentials",
+      "count": 11
+    },
+    {
+      "message": "Service unavailable",
+      "count": 10
+    },
+    {
+      "message": "Database connection failed",
+      "count": 10
+    }
+  ]
+}

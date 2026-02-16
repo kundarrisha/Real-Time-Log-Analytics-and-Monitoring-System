@@ -1,0 +1,61 @@
+{
+  "generated_at": "2025-10-24T17:14:38.193415",
+  "statistics": {
+    "total_logs": 5779,
+    "log_levels": {
+      "INFO": 3421,
+      "WARNING": 1175,
+      "ERROR": 608,
+      "DEBUG": 461,
+      "CRITICAL": 114
+    },
+    "services": {
+      "DatabaseService": 1213,
+      "UserService": 1157,
+      "AuthService": 1152,
+      "NotificationService": 1131,
+      "PaymentService": 1126
+    },
+    "avg_response_time": 679.3235853953971,
+    "max_response_time": "4997",
+    "min_response_time": "50",
+    "error_count": 722,
+    "timestamp": "2025-10-24T17:14:37.732127"
+  },
+  "anomalies": [
+    {
+      "type": "High Response Time",
+      "count": 510,
+      "threshold": 2920.43,
+      "avg_value": 3958.81
+    }
+  ],
+  "peak_hours": {
+    "13": 6494,
+    "14": 694,
+    "16": 1366,
+    "17": 4413
+  },
+  "frequent_errors": [
+    {
+      "message": "Database connection failed",
+      "count": 243
+    },
+    {
+      "message": "Connection timeout",
+      "count": 235
+    },
+    {
+      "message": "Service unavailable",
+      "count": 218
+    },
+    {
+      "message": "Null pointer exception",
+      "count": 213
+    },
+    {
+      "message": "Memory limit exceeded",
+      "count": 213
+    }
+  ]
+}

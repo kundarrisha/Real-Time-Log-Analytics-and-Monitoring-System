@@ -16,9 +16,6 @@ This project simulates the log pipeline of a multi-service application: logs are
 
 It's designed to run entirely on a single Windows machine with modest specs, while still reflecting the architecture patterns used in production observability stacks (hot/cold storage tiers, stream ingestion, scheduled analytics, BI export).
 
-## Architecture
-
-![System Architecture](./images/diagram.png)
 
 **Pipeline flow:**
 
